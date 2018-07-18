@@ -2,6 +2,14 @@
 
 These are the programming procedures written with igor pro. It is a complete GUI for importing data(image, graph, txt, etc),  reading spectroscopy images, reconstructing 3D model from 2D slicing pictures, and automatically programming any high-symmetry spectroscopy image graphing and processing.
 
+some selected publicaions using this GUI software to analyze the date:
+a.https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.127204
+b.https://journals.aps.org/prb/abstract/10.1103/PhysRevB.90.054512
+c.https://journals.aps.org/prb/abstract/10.1103/PhysRevB.94.024524
+d.https://journals.aps.org/prx/abstract/10.1103/PhysRevX.4.031001
+e.https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.266407
+f.https://journals.aps.org/prb/abstract/10.1103/PhysRevB.92.115119
+
 (1) main panel:
 
 ![image](https://user-images.githubusercontent.com/29580346/42852777-35582fc4-89e7-11e8-8398-bb01fe995c91.png)
