@@ -1,0 +1,27 @@
+#pragma rtGlobals=1		// Use modern global access method.
+#pragma rtGlobals=1		// Use modern global access method.
+
+Macro RevY_ImageList()
+	string imlst=WaveList("*",";","DIMS:2")
+	string imn
+	variable ii=0, num=ItemsInList(imlst)
+	DO
+		imn = stringfromlist(ii,imlst)
+		print imn
+		revY( $imn )
+		ii+=1
+	WHILE (ii<num)
+End
+
+Macro RevY_TopImage()
+	string imn = stringfromlist(0,ImageNameList("",""))
+	print imn
+	revY( $imn )
+End
+
+function RevY( im )
+	wave im
+	variable yoff=DimOffset(im,1)
+	variable yinc=DimDelta(im,1)
+	SetScale/P y -yoff, -yinc, im
+end

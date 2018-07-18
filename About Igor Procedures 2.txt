@@ -1,0 +1,61 @@
+This is one of two special Igor Procedures folders.
+
+The other is created by Igor 6.1 or later when Igor starts up, and is normally
+located here:
+
+	<My Documents>\WaveMetrics\Igor Pro 6 User Files\Igor Procedures
+
+A simple way to locate that folder is to choose "Show Igor Pro 6 User Files" from Igor's
+Help Menu.
+
+You can put Igor procedure files in here or shortcuts pointing to procedure
+files or to folders containing procedure files.
+
+When Igor starts up, it automatically opens any procedure files (or aliases to
+files) in either of these folders.
+
+Such procedure files are called "global" procedure files and are not
+part of any experiment but are available to all experiments.
+
+You should put only those procedures that you expect to use from
+nearly all of your experiments in these folders.
+
+NOTE:
+  If you put a procedure file in either Igor Procedures folder and use
+  any of the macros or functions in an Igor experiment file, then that
+  experiment will require the procedure file to be available when the
+  experiment is opened.
+  
+  If you transfer the experiment to another computer or user, you will need
+  to transfer the procedure file also. If you forget the procedure
+  file then the experiment will not open correctly.
+
+NOTE:
+  It is best if you save your own files in your own folder outside the
+  Igor Pro Folder. This makes it possible for you to upgrade Igor in the
+  future without worrying about losing your own files. 
+  
+  <My Documents>\WaveMetrics\Igor Pro 6 User Files\Igor Procedures
+  is an ideal place for this.
+
+PER-USER IGOR PROCEDURES
+
+  Additionally, as with previous versions of Igor, the administrator can set up a
+  "per-user shortcut" in, say, the Igor Procedures folder using a target path that
+  uses the %USERPROFILE% environment variable. Then each user can create such a folder
+  in their Documents and Settings folder to match.
+
+  For example, if the administrator creates a shortcut in the installed Igor Pro Folder's
+  Igor Procedures subfolder, and the target of that shortcut is:
+
+	"%USERPROFILE%\My Documents\Igor Global Procedures"
+
+  (Note: the quotes are required to make the shortcut resolve properly, and the
+  administrator will probably need to create the Igor Global Procedures in his/her
+  My Documents folder to successfully create the shortcut.)
+
+  then a user named "Fred" would create a folder here:
+
+	C:\Documents and Settings\Fred\My Documents\Igor Global Procedures 
+
+  and put any procedure files he wanted to load when Igor starts.
